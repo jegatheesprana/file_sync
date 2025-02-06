@@ -1,0 +1,17 @@
+{
+    "name": "Moodle Big Data",
+    "version": "1.0.0",
+    "description": "Calculate Final GPA",
+    "manifest_version": 3,
+    "author": "Pranavan Jegatheeswaran",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Moodle Big Data"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["script.js"]
+        }
+    ]
+}
