@@ -3,7 +3,7 @@
 # run ./script.sh
 # run ./script.sh -c to copy screenshots to the repo
 
-repo=git@github.com:pranavan-yaala/testing.git
+repo=git@github.com:pranavan/testing.git
 branch="main"
 
 mkdir -p big_data
